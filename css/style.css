@@ -2842,3 +2842,23 @@ h4.package {
   padding-right: 2px;
 }
 
+.pod-episode-thumbnail {
+  height: 200px; 
+  font-size: 60px;
+  text-align: center;
+  padding-top: 40px;
+  color: black;
+  border: solid .5px black;
+}
+
+.pod-bar {
+  width: 40px; 
+  border-bottom: solid .5px black;
+  margin-left: auto; 
+  margin-right: auto;
+  position: absolute;
+  background-color: black;
+  bottom: 40px;
+  left: calc(50% - 20px);
+}
+

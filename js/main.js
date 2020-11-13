@@ -121,20 +121,22 @@
   );
 
   //On Click Open Session Sanctum Writeup
-  $(".open-session-sanctum").on("click", function () {
+  $(".open-ep1").on("click", function () {
     $(".content-blocks").removeClass("showx");
-    $(".content-blocks.session-sanctum").addClass("showx");
+    $(".content-blocks.ep1").addClass("showx");
     $(".menu-item").removeClass("active");
-    $(".menu-item.session-sanctum").addClass("active");
+    $(".menu-item.ep1").addClass("active");
   });
 
-  //On Click Fraternity Site Writeup
-  $(".open-asp").on("click", function () {
+    //On Click Open Session Sanctum Writeup
+  $(".open-ep2").on("click", function () {
     $(".content-blocks").removeClass("showx");
-    $(".content-blocks.asp").addClass("showx");
+    $(".content-blocks.ep2").addClass("showx");
     $(".menu-item").removeClass("active");
-    $(".menu-item.asp").addClass("active");
+    $(".menu-item.ep2").addClass("active");
   });
+
+
 
   //On Click Open Blog Block
   $(".blog-block, .menu-item.blog").on("click", function () {
