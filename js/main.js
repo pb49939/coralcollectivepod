@@ -120,7 +120,7 @@
     }
   );
 
-  //On Click Open Session Sanctum Writeup
+  
   $(".open-ep1").on("click", function () {
     $(".content-blocks").removeClass("showx");
     $(".content-blocks.ep1").addClass("showx");
@@ -128,12 +128,19 @@
     $(".menu-item.ep1").addClass("active");
   });
 
-    //On Click Open Session Sanctum Writeup
+    
   $(".open-ep2").on("click", function () {
     $(".content-blocks").removeClass("showx");
     $(".content-blocks.ep2").addClass("showx");
     $(".menu-item").removeClass("active");
     $(".menu-item.ep2").addClass("active");
+  });
+
+    $(".open-ep3").on("click", function () {
+    $(".content-blocks").removeClass("showx");
+    $(".content-blocks.ep3").addClass("showx");
+    $(".menu-item").removeClass("active");
+    $(".menu-item.ep3").addClass("active");
   });
 
 
