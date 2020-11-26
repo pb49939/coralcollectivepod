@@ -136,11 +136,18 @@
     $(".menu-item.ep2").addClass("active");
   });
 
-    $(".open-ep3").on("click", function () {
+  $(".open-ep3").on("click", function () {
     $(".content-blocks").removeClass("showx");
     $(".content-blocks.ep3").addClass("showx");
     $(".menu-item").removeClass("active");
     $(".menu-item.ep3").addClass("active");
+  });
+
+  $(".open-ep4").on("click", function () {
+    $(".content-blocks").removeClass("showx");
+    $(".content-blocks.ep4").addClass("showx");
+    $(".menu-item").removeClass("active");
+    $(".menu-item.ep4").addClass("active");
   });
 
 
