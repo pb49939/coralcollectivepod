@@ -150,6 +150,13 @@
     $(".menu-item.ep4").addClass("active");
   });
 
+    $(".open-ep5").on("click", function () {
+    $(".content-blocks").removeClass("showx");
+    $(".content-blocks.ep5").addClass("showx");
+    $(".menu-item").removeClass("active");
+    $(".menu-item.ep5").addClass("active");
+  });
+
 
 
   //On Click Open Blog Block
