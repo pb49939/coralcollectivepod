@@ -155,6 +155,13 @@
     $(".content-blocks.ep5").addClass("showx");
     $(".menu-item").removeClass("active");
     $(".menu-item.ep5").addClass("active");
+    });
+  
+  $(".open-ep6").on("click", function () {
+    $(".content-blocks").removeClass("showx");
+    $(".content-blocks.ep6").addClass("showx");
+    $(".menu-item").removeClass("active");
+    $(".menu-item.ep6").addClass("active");
   });
 
 
